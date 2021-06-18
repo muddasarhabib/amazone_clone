@@ -10,7 +10,7 @@ app.use(bodyParse.urlencoded({extended:false}));
 
 //api 
 app.get('/',(req,res)=>{
-     res.json("hello in amazone first api");
+     res.json("amazone clone ");
 });
 app.post('/',(req,res)=>{
     res.json(req.body);
